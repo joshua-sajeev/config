@@ -1,4 +1,3 @@
-
 -- Automatically generated packer.nvim plugin loader code
 
 if vim.api.nvim_call_function('has', {'nvim-0.5'}) ~= 1 then
@@ -131,6 +130,11 @@ _G.packer_plugins = {
     path = "/home/joshua/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",
     url = "https://github.com/lukas-reineke/indent-blankline.nvim"
   },
+  ["lualine-time"] = {
+    loaded = true,
+    path = "/home/joshua/.local/share/nvim/site/pack/packer/start/lualine-time",
+    url = "https://github.com/archibate/lualine-time"
+  },
   ["lualine.nvim"] = {
     loaded = true,
     path = "/home/joshua/.local/share/nvim/site/pack/packer/start/lualine.nvim",
@@ -178,10 +182,9 @@ _G.packer_plugins = {
     url = "https://github.com/p00f/nvim-ts-rainbow"
   },
   ["nvim-web-devicons"] = {
-    loaded = false,
-    needs_bufread = false,
-    path = "/home/joshua/.local/share/nvim/site/pack/packer/opt/nvim-web-devicons",
-    url = "https://github.com/nvim-tree/nvim-web-devicons"
+    loaded = true,
+    path = "/home/joshua/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
+    url = "https://github.com/kyazdani42/nvim-web-devicons"
   },
   ["packer.nvim"] = {
     loaded = true,
