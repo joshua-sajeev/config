@@ -1,0 +1,5 @@
+font:
+  normal:
+    family: SauceCodeProNerdFontMono
+import:
+  - ~/.alacritty-colorscheme/themes/snazzy.yaml
