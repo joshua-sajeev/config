@@ -1,0 +1,4 @@
+function p --wraps=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 --description 'alias p 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'
+  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 $argv
+        
+end
